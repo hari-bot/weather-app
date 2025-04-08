@@ -45,25 +45,14 @@ export default function Settings() {
 
   return (
     <main className="bg-gradient-to-b from-blue-700 to-blue-500 min-h-screen relative overflow-hidden">
-      {/* Cloud images */}
-      <div className="absolute left-10 top-32">
-        <Image src="/cloud.png" alt="cloud" width={100} height={50} />
-      </div>
-      <div className="absolute left-40 top-60">
-        <Image src="/cloud.png" alt="cloud" width={150} height={75} />
-      </div>
-      <div className="absolute left-20 top-96">
-        <Image src="/cloud.png" alt="cloud" width={120} height={60} />
-      </div>
-
       {/* Building image */}
-      <div className="absolute left-0 bottom-0 z-0">
+      <div className="absolute -left-100 bottom-0 z-0 h-[100vh]">
         <Image
           src="/buildings.png"
           alt="buildings"
-          width={400}
-          height={600}
-          className="object-contain"
+          width={800}
+          height={1200}
+          className="h-full object-contain object-left-bottom"
         />
       </div>
 
